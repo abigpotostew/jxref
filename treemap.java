@@ -59,7 +59,7 @@ class treemap <key_t extends Comparable <key_t>, value_t> {
          if ( cmp == 0 ) {
             curr.key = key;
             return curr.key;
-         } else if (cmp < 0) curr =
+         } else if (cmp < 0) curr = ;
       }
       
 

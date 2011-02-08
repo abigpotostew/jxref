@@ -10,8 +10,6 @@
 //    from a jar and gets the name of the program from the classpath.
 //    Can not be instantiated.
 //
-// Stewart Bracken
-// bbracken@ucsc.edu
 
 import static java.lang.System.*;
 import static java.lang.Integer.*;

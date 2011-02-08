@@ -1,6 +1,4 @@
 // $Id: queue.java,v 1.1 2011-01-28 19:52:24-08 - - $
-// Stewart Bracken
-// bbracken@ucsc.edu
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

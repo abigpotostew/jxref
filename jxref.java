@@ -1,6 +1,4 @@
 // $Id: jxref.java,v 1.17 2011-02-06 16:38:59-08 - - $
-// Stewart Bracken
-// bbracken@ucsc.edu
 
 import java.io.*;
 import java.util.Scanner;
