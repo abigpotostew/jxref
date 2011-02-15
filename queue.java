@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-// $Id: queue.java,v 1.10 2011-02-14 12:51:12-08 - - $
+// $Id: queue.java,v 1.10 2011/02/14 20:51:12 - - bbracken $
 // Stewart Bracken
 // bbracken@ucsc.edu
-=======
-// $Id: queue.java,v 1.1 2011-01-28 19:52:24-08 - - $
->>>>>>> 7040c7f923b6cda6bd2f93beaf843f415d64d2e1
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -27,7 +23,6 @@ class queue <item_t> implements Iterable <item_t> {
       newnode.item = newitem;
       newnode.link = null;
       if (head == null) head = newnode;
-<<<<<<< HEAD
          else tail.link = newnode;
       tail = newnode;
       return;
@@ -36,13 +31,6 @@ class queue <item_t> implements Iterable <item_t> {
    // I couldn't figure out how to create a new iterator
    // with the given code. Though I did complete the iterator
    // class code.
-=======
-         else rear.link = newnode;
-      rear = newnode;
-      return;
-   }
-
->>>>>>> 7040c7f923b6cda6bd2f93beaf843f415d64d2e1
    public Iterator <item_t> iterator () {
       return new itor ();
    }
@@ -59,13 +47,9 @@ class queue <item_t> implements Iterable <item_t> {
          return result;
       }
       public void remove () {
-<<<<<<< HEAD
          if ( isempty() ) return;
          if ( head != null ) head = head.link;
          if ( head == null ) tail = null;
-=======
-         throw new UnsupportedOperationException ();
->>>>>>> 7040c7f923b6cda6bd2f93beaf843f415d64d2e1
       }
    }
 
