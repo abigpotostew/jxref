@@ -1,0 +1,14 @@
+
+By Stewart Bracken
+
+This is a java reference tool for organizing words from
+a text file into lexographic order using a binary search
+tree and print.
+
+USAGE
+   jxref [-df] [filename...]
+
+OPTIONS
+   -f    Flattens cases into lowercase only
+   -d    Prints in debug format-- ie. in tree view.
+
